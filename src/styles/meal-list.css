@@ -1,0 +1,14 @@
+#mealContainer {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+    display: flex;
+}
+
+#mealList {
+margin-top: 32px;
+flex-basis: 25%;
+padding: 16px;
+display: block;
+}
+

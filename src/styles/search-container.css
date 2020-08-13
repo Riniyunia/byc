@@ -1,0 +1,44 @@
+.search-container {
+    padding: 20px 0;
+    max-width: 500px;
+}
+
+.search-container > input {
+    width: 75%;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.search-container > input:focus::placeholder {
+    opacity: 0.3;
+}
+
+.search-container > button {
+    padding: 16px;
+    background-color: #fcc133;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rubik';
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 550px){
+    .search-container {
+        flex-direction: column;
+        position: static;
+    }
+
+    .search-container > input {
+        width: 100%;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .search-container > button {
+        width: 100%;
+        font-size: 16px;
+    }
+}

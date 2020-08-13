@@ -1,0 +1,24 @@
+.header-bar {
+    padding: 10px;
+    width: 100%;
+    background-color: #fcc133;
+    color: black;
+    position: sticky;
+    z-index: 1;
+}
+
+.header-bar h2 {
+    font-family: 'BioRhyme';
+    font-weight: 800;
+    font-size: 22px;
+    padding-top: 0 px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header-bar p {
+    font-family: 'Rubik';
+    font-size: 14px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
